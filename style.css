@@ -1,16 +1,16 @@
 .jumbotron {
-  padding-top: 8rem;
+  padding-top: 10rem;
   background-color: #ebd9c8;
 }
 .bg {
   width: 100%;
-  height: 100px;
+  height: 15rem;
   border-radius: 0 0 90% 90%;
   background-color: #ebd9c8;
 }
 
 hr {
-  margin: 1rem 5rem;
+  margin: 5rem 5rem 0rem 5rem;
 
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
