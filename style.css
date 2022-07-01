@@ -1,6 +1,6 @@
 .jumbotron {
   padding-top: 10rem;
-  background-color: #ebd9c8;
+  background-image: linear-gradient(#ebd9c8, #ebd9c8, #ffffff);
 }
 .bg {
   width: 100%;
@@ -24,9 +24,38 @@ hr {
 
 .cardHover:hover {
   top: -7px;
-  box-shadow: 0 0 10px rgba(0, 122, 122, 0.5);
+  box-shadow: 1px 5px 10px rgba(0, 122, 122, 0.5);
+}
+
+.imgCustom {
+  width: 125px;
+  height: 125px;
+  /* padding: 10px; */
+}
+
+.cardSkill {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 20px;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.cardSkill:hover {
+  top: -7px;
 }
 
 section {
   padding-top: 5rem;
+}
+
+a {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
 }

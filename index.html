@@ -14,6 +14,12 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
     <title>Portfolio | Dimas Prayoga</title>
   </head>
   <body id="home">
@@ -38,6 +44,9 @@
               <a class="nav-link" href="#projects">Project</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -56,10 +65,14 @@
             </div>
           </div>
           <div class=" d-none d-sm-none d-md-block col-md-6" data-aos="fade-left">
-            <div>
-              <h1 class="display-3">Dimas Prayoga</h1>
-              <p class="lead "></p>
-            </div>
+            
+              <div class="fw-normal" style="font-size: 4em;">
+                Dimas Prayoga 
+                <a target="_blank" href="https://www.linkedin.com/in/dimaspr2000" class="btn btn-success" style=" padding: 0.1em 0.3em;"><i class="bi bi-linkedin " style="font-size:1rem;"></i></a>
+                
+              </div>
+              <p class="fw-light gsaptext" style="font-size: 2em;"></p>
+              
           </div>
           <div class="col-12  d-sm-block d-md-none text-center mb-4" data-aos="fade-down">
             <div>
@@ -68,8 +81,8 @@
           </div>
           <div class="col-12 d-sm-block d-md-none text-center" data-aos="fade-up">
             <div>
-              <h1 class="display-5">Dimas Prayoga</h1>
-              <p class="lead "></p>
+              <p class="fw-normal" style="font-size: 4em;">Dimas Prayoga</p>
+              <p class="fw-light gsaptext" style="font-size: 2em;"></p>
             </div>
           </div>
         </div>
@@ -82,20 +95,20 @@
         ></path>
       </svg> -->
     </section>
-    <div class="container" style="overflow: hidden"></div>
-    <div class="bg"></div>
+    <!-- <div class="container" style="overflow: hidden"></div>
+    <div class="bg"></div> -->
     <!-- Akhir Jumbotron -->
 
     <!-- About -->
     <section id="about">
       <div data-aos="flip-left" class="container" style="margin-top: 100px; margin-bottom: 100px">
-        <h2 class="text-center display-6 mb-4">About Me</h2>
+        <h2 class="text-center mb-4" style="font-size: 2.5em;">About Me</h2>
         <div class="row align-items-center justify-content-center fs-5">
           <div class="col-12 col-sm-4 text-center">
-            <p>Saya merupakan mahasiswa tingkat akhir program studi Teknik Informatika pada Universitas Atma Jaya Yogyakarta sejak tahun 2018.</p>
+            <p style="text-align: start;">Saya merupakan mahasiswa tingkat akhir program studi Teknik Informatika pada Universitas Atma Jaya Yogyakarta sejak tahun 2018.</p>
           </div>
           <div class="col-12 col-sm-4 text-center">
-            <p>Memiliki minat dalam bidang full stack developer dan software quality assurance untuk mengembangkan kemampuan serta memperluas wawasan diri</p>
+            <p style="text-align: start;">Memiliki minat dalam bidang full stack developer dan software quality assurance untuk mengembangkan kemampuan serta memperluas wawasan dalam bidang teknologi</p>
           </div>
         </div>
       </div>
@@ -106,14 +119,14 @@
     <!-- Project -->
     <section id="projects">
       <div class="container" data-aos="zoom-out">
-        <h2 class="text-center display-6 ">Projects</h2>
+        <h2 class="text-center " style="font-size: 2.5em;">Projects</h2>
         <div class="row justify-content-center mt-5">
           <div class="col-md-3 mb-3">
             <div class="card cardHover">
               <img src="img/projects/atma korean.JPG" class="card-img-top" alt="Atma Korean BBQ" />
               <div class="card-body">
                 <h6 class="card-title">Sistem Manajemen Restaurant Atma Korean BBQ</h6>
-                <a href="https://www.google.com" class="stretched-link"></a>
+                <a target="_blank"  href="https://www.google.com" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -122,7 +135,7 @@
               <img src="img/projects/simka.JPG" class="card-img-top" alt="Atma Korean BBQ" />
               <div class="card-body">
                 <h6 class="card-title">Sistem Manajemen Kepegawaian UAJY</h6>
-                <a href="https://www.simka2-dev.uajy.ac.id" class="stretched-link"></a>
+                <a target="_blank"  href="https://www.simka2-dev.uajy.ac.id" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -131,7 +144,7 @@
               <img src="img/projects/origin.JPG" class="card-img-top" alt="Sistem Manajemen Salon Origin Surakarta" />
               <div class="card-body">
                 <h6 class="card-title">Sistem Manajemen Salon Origin Surakarta</h5>
-                <a href="https://www.salonoriginsurakarta.web.id" class="stretched-link"></a>
+                <a target="_blank"  href="https://www.salonoriginsurakarta.web.id" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -141,10 +154,64 @@
     <!-- Akhir Project -->
 
     <hr />
-    <!-- Contact -->
-    <section id="contact">
+    <!-- Skill -->
+    <section id="skill" >
       <div class="container pb-5" data-aos="fade-down">
-        <h2 class="text-center display-6 mb-4">Contact Me</h2>
+        <h2 class="text-center mb-4" style="font-size: 2.5em;">Skill</h2>
+        <div class="row justify-content-center">
+          <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill ">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/laravel.png" alt="Laravel">
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/vue.png" alt="Laravel">
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/html.png" alt="Laravel">
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/css.png" alt="Laravel">
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3 justify-content-center">
+          <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill ">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/mysql.png" alt="Laravel">
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/MicrosoftSQL.png" alt="Laravel">
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/postman.png" alt="Laravel">
+            </div>
+          </div>
+          <!-- <div class="col-3 d-flex justify-content-center" width="150" height="150">
+            <div class="card cardSkill">
+              <img class="imgCustom mx-auto my-auto" src="img/knowledge/" alt="Laravel">
+            </div>
+          </div> -->
+        </div>
+        
+      </div>
+    </section>
+    <!-- Akhir Skill -->
+    <hr />
+    <!-- Contact -->
+    <section id="contact" >
+      <div class="container pb-5" data-aos="fade-down">
+        <h2 class="text-center mb-4" style="font-size: 2.5em;">Contact Me</h2>
         <div class="row justify-content-center">
           <div class="col-md-5">
             <div class="my-4 alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
@@ -179,8 +246,9 @@
       </div>
     </section>
     <!-- Akhir Contact -->
+    
     <!-- Footer -->
-    <footer class="text-white text-center" style="margin-top: 50px; background-color: #003f5a; height: 50px">
+    <footer class="text-white text-center" style="background-color: #003f5a; height: 50px">
       <div class="row align-items-center" style="height: 100%">
         <div class="col">
           <p>Created by <a class="text-white fw-bold" href="https://www.linkedin.com/in/dimaspr2000/">Dimas Prayoga</a></p>
@@ -198,7 +266,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to(".lead", {duration: 3,delay:0,text: 'Full Stack Developer'})
+      gsap.to(".gsaptext", {duration: 3,delay:0,text: 'Full Stack Developer'})
     </script>
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxvAEjXoDlY5JsPHINodXhfLvBwactqRIlCMTVdhX827gDdKPMUf7N0CY3M_TdcNafgbA/exec";
